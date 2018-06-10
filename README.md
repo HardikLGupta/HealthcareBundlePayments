@@ -1,2 +1,16 @@
-# HealthcareBundlePayments
-ISB Capstone Project
+# ISB Capstone Project - Healthcare Bundle Payments
+
+
+## Executive Summary
+
+In the US, there is an increasing need for devising a payment model for the healthcare sector that rewards providers for delivering quality care to the patients at a lower cost. The current fee-for-service model reimburses providers like hospitals, physicians and nursing facilities individually, for every service provided during the episode of care. This results in high volume, high cost, and inadequate outcome as the providers are paid separately for each service.
+
+Episode based Bundled payment or ‘value-based reimbursement’ (Michael E. Porter, 2016) is a disbursement model which makes a single payment to different providers involved in the treatment of the patient over a period of time. Bundled payment is an attempt to offer incentives to care providers by making a single payment, for all services provided during an episode of care. However, an effective implementation of this system involves deep knowledge of the episode of care in terms of diagnoses, procedures and cost borne by patients and insurance companies like Centre for Medicare and Medicaid Services (CMS).
+
+Analytical techniques, some of which showcased in this project, are very essential to analyse large patient claim records and find insights for probable bundling. Use of data mining techniques such as Association Rule mining, Sequential Rule Mining and Process Mining can help the medical facility understand the frequent patterns within an episode of care. Patterns include co-occurring diagnoses, sequence of procedures conducted over a period of time and end-to-end visual understanding of patient’s medical history, which are all necessary components to form a bundle. In addition, the use of statistical techniques like Logistic Regression is useful to predict the future outcome of a patient belonging to an episode of care. Predicting readmission based on a particular procedure, for example, could help the patient receive better medical facilities (included in the bundle) during early stages of care.
+
+The objective of this project is to devise a framework for bundling medical procedures and diagnoses, based on frequent patterns occurring in the CMS medical claims data. Medical claims data is the collection of records which consists of information regarding the diagnoses, procedures, providers and length of stay across inpatient and outpatient facilities. The project demonstrates bundled payment options for one of the frequently occurring diagnosis – Ischemic Heart Disease- among inpatient records. The project also highlights an analytical way of selecting different providers for the same episode of care based on their cost of treatment, which could help Medicare choose the right set of providers to render these bundled services.
+
+The project discusses several logical steps for probable bundling, however the framework devised is not limited to this. The dataset used is a public synthetic file replicating claims data and hence the insights gained in this report cannot directly be used by the stakeholders. However, all of the concepts and techniques applied in the project could be applied on real claims data (with similar data structure and attributes) to derive actual insights.
+
+Keywords- Healthcare, Bundled Payments, Data Mining
